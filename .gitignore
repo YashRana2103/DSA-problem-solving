@@ -1,30 +1,61 @@
 ### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-/idea/
+# IDE-specific
+.idea/
+*.iws
+*.iml
+*.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# IntelliJ out/ production directory
+/out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Exclude module-specific output directories (usually under src/)
+**/out/
 
-### VS Code ###
+# Logs, coverage, and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+*.class
+*.hprof
+
+# IntelliJ cache and system
+.idea_modules/
+.idea_system/
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Build scan cache
+**/build/
+**/tmp/
+
+### Maven ###
+target/
+
+### VS Code (if you're switching IDEs like a confused coder) ###
 .vscode/
 
-### Mac OS ###
+### macOS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+### Linux ###
+*~
+
+### Test Reports ###
+**/test-results/
+**/reports/
+**/jacoco/
+
+### Package managers (if you're doing full-stack stuff) ###
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
