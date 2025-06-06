@@ -1,6 +1,6 @@
 package Sorting;
 
-import mypackage.PrintArr;
+import utils.ArrayUtils;
 
 public class InsertionSort {
     static void insertionSort(int[] nums) {
@@ -19,6 +19,6 @@ public class InsertionSort {
         int[] arr = { 64, 25, 12, 11, 24, 13 };
         // int[] arr = { 12, 11, 13, 5, 6 };
         insertionSort(arr);
-        PrintArr.printArr(arr);
+        ArrayUtils.print(arr);
     }
 }

@@ -1,7 +1,7 @@
 package Sorting;
 
-import mypackage.PrintArr;
-import mypackage.Swap;
+import utils.ArrayUtils;
+import utils.Swap;
 
 public class BubbleSort {
     static void bubbleSort(int[] arr) {
@@ -22,6 +22,6 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = { 64, 25, 12, 11, 24, 13 };
         bubbleSort(arr);
-        PrintArr.printArr(arr);
+        ArrayUtils.print(arr);
     }
 }

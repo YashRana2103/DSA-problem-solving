@@ -2,7 +2,7 @@
 
 package leetcode_150;
 
-import static mypackage.PrintArr.printArr;
+import static utils.ArrayUtils.print;
 
 public class Easy_150_3_remove_duplicates_I {
     public static int brute_force(int[] arr, int n) {
@@ -43,7 +43,7 @@ public class Easy_150_3_remove_duplicates_I {
         int k = better(arr, arr.length);
 //        int k = optimal(arr, arr.length);
         System.out.println(k);
-        printArr(arr);
-        printArr(arr, k);
+        print(arr);
+        print(arr, k);
     }
 }

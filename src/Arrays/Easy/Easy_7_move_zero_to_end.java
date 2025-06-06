@@ -2,8 +2,8 @@
 
 package Arrays.Easy;
 
-import static mypackage.PrintArr.printArr;
-import static mypackage.Swap.swap;
+import static utils.ArrayUtils.print;
+import static utils.Swap.swap;
 
 public class Easy_7_move_zero_to_end {
     public static void brute_force(int[] arr, int n) {
@@ -63,6 +63,6 @@ public class Easy_7_move_zero_to_end {
 
 //        brute_force(arr, arr.length);
         optimal(arr, arr.length);
-        printArr(arr);
+        print(arr);
     }
 }

@@ -1,7 +1,7 @@
 package Sorting;
 
-import mypackage.Swap;
-import mypackage.PrintArr;
+import utils.Swap;
+import utils.ArrayUtils;
 
 class SelectionSort {
     static void selectionSort(int[] arr) {
@@ -21,6 +21,6 @@ class SelectionSort {
     public static void main(String[] args) {
         int[] arr = { 64, 25, 12, 11, 24, 13 };
         selectionSort(arr);
-        PrintArr.printArr(arr);
+        ArrayUtils.print(arr);
     }
 }

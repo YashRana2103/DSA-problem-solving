@@ -2,7 +2,8 @@ package Arrays.Easy;
 
 import java.util.Random;
 
-import static mypackage.PrintArr.printArr;
+import static utils.ArrayUtils.print;
+
 
 public class Easy_6_rotate_by_N {
     public static void brute_force(int[] arr, int n, int k, Boolean isLeft) {
@@ -82,7 +83,7 @@ public class Easy_6_rotate_by_N {
         int[] arr = testCases[index];
 
         System.out.print("Original Array: ");
-        printArr(arr);
+        print(arr);
 
         int k = 2;
 //        brute_force(arr, arr.length, k, true);
@@ -91,6 +92,6 @@ public class Easy_6_rotate_by_N {
 //        optimal(arr, arr.length, k, false);
 
         System.out.print("After Rotation by " + k + ": ");
-        printArr(arr);
+        print(arr);
     }
 }

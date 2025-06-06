@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import static mypackage.PrintArr.printArr;
+import static utils.ArrayUtils.print;
 
 public class Easy_150_4_remove_duplicates_II {
     public static int brute_force(int[] arr, int n) {
@@ -62,11 +62,11 @@ public class Easy_150_4_remove_duplicates_II {
 //        int[] arr = new int[]{0, 0, 1, 1, 1, 1, 2, 3, 3};
 
         System.out.print("Original Array: ");
-        printArr(arr);
+        print(arr);
 
         int k = brute_force(arr, arr.length);
 //        int k = better(arr, arr.length);
         System.out.println(k);
-        printArr(arr, k);
+        print(arr, k);
     }
 }

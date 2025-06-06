@@ -3,7 +3,8 @@ package Arrays.Easy;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static mypackage.PrintArr.printArr;
+import static utils.ArrayUtils.print;
+import static utils.ArrayUtils.printWithColor;
 
 public class Easy_8_union_of_two_sorted_arrays {
     public static int[] optimal(int[] arr1, int n, int[] arr2, int m) {
@@ -69,7 +70,8 @@ public class Easy_8_union_of_two_sorted_arrays {
 //        Output: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 
         int[] arr = optimal(arr1, arr1.length, arr2, arr2.length);
-        printArr(arr);
+        print(arr);
+        printWithColor(arr);
 
 //        ArrayList<Integer> unionArr = new ArrayList<>(tuf(arr1, arr1.length, arr2, arr2.length));
 //        System.out.println(unionArr);

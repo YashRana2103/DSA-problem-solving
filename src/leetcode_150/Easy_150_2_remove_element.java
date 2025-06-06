@@ -1,8 +1,8 @@
 package leetcode_150;//https://leetcode.com/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150
 
 
-import static mypackage.PrintArr.printArr;
-import static mypackage.Swap.swap;
+import static utils.ArrayUtils.print;
+import static utils.Swap.swap;
 
 public class Easy_150_2_remove_element {
     public static int brute_force(int[] nums, int val) {
@@ -71,7 +71,7 @@ public class Easy_150_2_remove_element {
 //        int k = better(nums, 2);
         int k = optimal(nums, 3);
         System.out.println(k);
-        printArr(nums);
-        printArr(nums, k);
+        print(nums);
+        print(nums, k);
     }
 }

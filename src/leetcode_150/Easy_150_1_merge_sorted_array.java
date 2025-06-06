@@ -1,6 +1,8 @@
-package leetcode_150;//https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
+//https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 
-import static mypackage.PrintArr.printArr;
+package leetcode_150;
+
+import static utils.ArrayUtils.print;
 
 public class Easy_150_1_merge_sorted_array {
     public static void myApproach(int[] nums1, int m, int[] nums2, int n){
@@ -74,6 +76,6 @@ public class Easy_150_1_merge_sorted_array {
         myApproach(nums1, 0, nums2, 1);
         optimal(nums1, 0, nums2, 1);
 
-        printArr(nums1);
+        print(nums1);
     }
 }
