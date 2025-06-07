@@ -1,6 +1,6 @@
 //https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array/
 
-package Arrays.Easy;
+package TUF.Easy;
 
 import static utils.ArrayUtils.print;
 import static utils.Swap.swap;
