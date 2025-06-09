@@ -20,7 +20,7 @@ public class Easy_12_longest_subarr_w_sum_k {
         return lenOfSubArr;
     }
 
-    public static int better1(int[] nums, int k){
+    public static int better(int[] nums, int k){
         int n = nums.length;
         int sum = 0;
         int maxLen = 0;
@@ -45,6 +45,25 @@ public class Easy_12_longest_subarr_w_sum_k {
         return maxLen;
     }
 
+    public static int optimal(int[] nums, int k){
+        int n = nums.length;
+
+        int left = 0, right = 0;
+        int sum = nums[0];
+        int maxLength = 0;
+        while(right < n){
+            while(left <= right && sum > k){
+                sum -= nums[left];
+                left++;
+            }
+
+            if(sum == k) maxLength = Math.max(maxLength, right - left + 1);
+
+            right++;
+            if(right < n) sum += nums[right];
+        }
+        return maxLength;
+    }
     public static void main(String[] args) {
 //        int[] nums = new int[]{2, 3, 5};
 //        int[] nums = new int[] {2, 3, 5, 1, 9};
@@ -53,6 +72,7 @@ public class Easy_12_longest_subarr_w_sum_k {
         int[] nums = new int[]{1, 9, 0, 0, 1, 1, 3, 5, 1, 7, 2};
 
         System.out.println(myApproach(nums, 10));
-        System.out.println(better1(nums, 10));
+        System.out.println(better(nums, 10));
+        System.out.println(optimal(nums, 10));
     }
 }
