@@ -1,11 +1,11 @@
 //https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k/
 
-package TUF.Easy;
+package TUF.Medium;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Easy_12_longest_subarr_w_sum_k {
+public class Medium_1_longest_subarr_w_sum_k {
     public static int myApproach(int[] nums, int k) {
         int n = nums.length;
         int lenOfSubArr = 0;
@@ -63,6 +63,9 @@ public class Easy_12_longest_subarr_w_sum_k {
             if(right < n) sum += nums[right];
         }
         return maxLength;
+
+        // TC: O(N) or O(2N)
+        // SC: O(1)
     }
     public static void main(String[] args) {
 //        int[] nums = new int[]{2, 3, 5};
