@@ -2,7 +2,7 @@
 
 package leetcode_150;
 
-public class Easy_150_7_best_day_to_buy_sell_stock {
+public class _7_Easy_150_best_day_to_buy_sell_stock_I {
     public static int myApproach2(int[] prices) {
 //        int n = prices.length;
 //        int p = prices[0];

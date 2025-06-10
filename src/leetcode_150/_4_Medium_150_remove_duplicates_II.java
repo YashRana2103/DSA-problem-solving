@@ -9,7 +9,7 @@ import java.util.List;
 
 import static utils.ArrayUtils.print;
 
-public class Easy_150_4_remove_duplicates_II {
+public class _4_Medium_150_remove_duplicates_II {
     public static int brute_force(int[] arr, int n) {
 //        int max = Integer.MIN_VALUE;
 //        for (int i = 0; i < n; i++) {

@@ -4,7 +4,7 @@ package leetcode_150;
 
 import static utils.ArrayUtils.print;
 
-public class Easy_150_3_remove_duplicates_I {
+public class _3_Easy_150_remove_duplicates_I {
     public static int brute_force(int[] arr, int n) {
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {

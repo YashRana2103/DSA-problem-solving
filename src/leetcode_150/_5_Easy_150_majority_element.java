@@ -2,7 +2,7 @@
 
 package leetcode_150;
 
-public class Easy_150_5_majority_element {
+public class _5_Easy_150_majority_element {
     // using Boyer-Moore Majority Vote Algorithm
     public static int optimal(int[] nums) {
         int n = nums.length;

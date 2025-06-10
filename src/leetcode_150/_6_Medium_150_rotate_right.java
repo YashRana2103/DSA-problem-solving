@@ -4,7 +4,7 @@ package leetcode_150;
 
 import java.util.Arrays;
 
-public class Easy_150_6_rotate_right {
+public class _6_Medium_150_rotate_right {
     public static void optimal(int[] nums, int k) {
         int n = nums.length;
         if (n == 0 || k % n == 0) return;

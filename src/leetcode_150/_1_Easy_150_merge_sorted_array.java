@@ -4,7 +4,7 @@ package leetcode_150;
 
 import static utils.ArrayUtils.print;
 
-public class Easy_150_1_merge_sorted_array {
+public class _1_Easy_150_merge_sorted_array {
     public static void myApproach(int[] nums1, int m, int[] nums2, int n){
         int[] temp = new int[m + n];
         int k = 0;

@@ -4,7 +4,7 @@ package leetcode_150;//https://leetcode.com/problems/remove-element/description/
 import static utils.ArrayUtils.print;
 import static utils.Swap.swap;
 
-public class Easy_150_2_remove_element {
+public class _2_Easy_150_remove_element {
     public static int brute_force(int[] nums, int val) {
         int n = nums.length;
         int k = 0;
