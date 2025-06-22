@@ -17,6 +17,10 @@ public class _11_Medium_150_H_index {
             if (papers >= i) return i;
         }
         return 0;
+
+
+        // TC: O(n) // We traverse the citation array once to fill the paperCount array, and then we traverse the paperCount array once to find the H-index.
+        // SC: O(n) // The space complexity is O(n) because we use an additional array of size n+1 to store the count of papers with citations.
     }
 
     public static void main(String[] args) {
