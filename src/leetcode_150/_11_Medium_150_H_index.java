@@ -11,10 +11,10 @@ public class _11_Medium_150_H_index {
         for (int citation : citations)
             paperCount[Math.min(citation, n)]++;
 
-        int papers = 0;
+        int h = 0;
         for (int i = n; i > 0; i--) {
-            papers += paperCount[i];
-            if (papers >= i) return i;
+            h += paperCount[i];
+            if (h >= i) return i;
         }
         return 0;
 
