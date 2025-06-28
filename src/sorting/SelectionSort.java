@@ -1,4 +1,4 @@
-package Sorting;
+package sorting;
 
 import utils.Swap;
 import utils.ArrayUtils;
