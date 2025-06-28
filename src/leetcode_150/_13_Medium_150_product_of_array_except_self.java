@@ -4,6 +4,7 @@ package leetcode_150;
 
 import java.util.Arrays;
 
+import static utils.ArrayUtils.print;
 import static utils.ArrayUtils.printWithColor;
 
 public class _13_Medium_150_product_of_array_except_self {
@@ -123,12 +124,19 @@ public class _13_Medium_150_product_of_array_except_self {
 //        printWithColor(optimal(nums5));
 //        printWithColor(optimal(nums6));
 
-        printWithColor(partialOptimal(nums1));
-        printWithColor(partialOptimal(nums2));
-        printWithColor(partialOptimal(nums3));
-        printWithColor(partialOptimal(nums4));
-        printWithColor(partialOptimal(nums5));
-        printWithColor(partialOptimal(nums6));
+//        printWithColor(partialOptimal(nums1));
+//        printWithColor(partialOptimal(nums2));
+//        printWithColor(partialOptimal(nums3));
+//        printWithColor(partialOptimal(nums4));
+//        printWithColor(partialOptimal(nums5));
+//        printWithColor(partialOptimal(nums6));
+
+        printWithColor(githubCopilot(nums1));
+        printWithColor(githubCopilot(nums2));
+        printWithColor(githubCopilot(nums3));
+        printWithColor(githubCopilot(nums4));
+        printWithColor(githubCopilot(nums5));
+        printWithColor(githubCopilot(nums6));
 
         // throws ArrayIndexOutOfBoundsException for large arrays
         // printWithColor(better(nums4));
