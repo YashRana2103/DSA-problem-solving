@@ -4,7 +4,7 @@ package TUF.Medium;
 
 import static utils.ArrayUtils.printMatrix;
 
-public class Medium_3_set_matrix_zeroes {
+public class Set_matrix_zeroes {
 
     // not work with -ve
     public static void brute_force(int[][] matrix) {

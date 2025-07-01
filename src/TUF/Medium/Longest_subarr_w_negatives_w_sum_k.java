@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class Medium_2_longest_subarr_w_negatives_w_sum_k {
+public class Longest_subarr_w_negatives_w_sum_k {
     public static int myApproach(int[] nums, int k) {
         int n = nums.length;
         int lenOfSubArr = 0;

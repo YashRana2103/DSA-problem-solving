@@ -5,7 +5,7 @@ package TUF.Medium;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Medium_1_longest_subarr_w_sum_k {
+public class Longest_subarr_w_sum_k {
     public static int myApproach(int[] nums, int k) {
         int n = nums.length;
         int lenOfSubArr = 0;
