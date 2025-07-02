@@ -5,7 +5,7 @@ import java.util.Random;
 import static utils.ArrayUtils.print;
 
 
-public class Easy_6_rotate_by_N {
+public class Rotate_by_N {
     public static void brute_force(int[] arr, int n, int k, Boolean isLeft) {
         if (n == 0)
             return;

@@ -5,7 +5,7 @@ package TUF.Easy;
 import static utils.ArrayUtils.print;
 import static utils.Swap.swap;
 
-public class Easy_7_move_zero_to_end {
+public class Move_zero_to_end {
     public static void brute_force(int[] arr, int n) {
         int[] temp = new int[n];
         int i = 0, j = 0;

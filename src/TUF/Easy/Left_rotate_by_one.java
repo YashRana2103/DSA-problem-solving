@@ -4,7 +4,7 @@ import java.util.Random;
 
 import static utils.ArrayUtils.print;
 
-public class Easy_5_left_rotate_by_one {
+public class Left_rotate_by_one {
     public static void brute_force(int[] arr, int n){
         if(n < 2) return;
         int[] temp = new int[arr.length];

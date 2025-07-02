@@ -1,6 +1,6 @@
 package TUF.Easy;
 
-public class Easy_10_count_max_consecutive_ones {
+public class Count_max_consecutive_ones {
     public static int optimal(int[] nums){
         int n = nums.length;
         int max = 0, cnt = 0;

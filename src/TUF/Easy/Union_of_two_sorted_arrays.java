@@ -6,7 +6,7 @@ import java.util.Arrays;
 import static utils.ArrayUtils.print;
 import static utils.ArrayUtils.printWithColor;
 
-public class Easy_8_union_of_two_sorted_arrays {
+public class Union_of_two_sorted_arrays {
     public static int[] optimal(int[] arr1, int n, int[] arr2, int m) {
         int[] arr3 = new int[n + m];
         int i = 0, j = 0, k = 0;

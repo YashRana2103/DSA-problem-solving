@@ -2,7 +2,7 @@
 
 package TUF.Easy;
 
-public class Easy_9_find_missing_element {
+public class Find_missing_element {
     public static int myApproach(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != i + 1) return i + 1;

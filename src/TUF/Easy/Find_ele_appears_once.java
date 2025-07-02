@@ -6,7 +6,7 @@ package TUF.Easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Easy_11_find_ele_appears_once {
+public class Find_ele_appears_once {
     public static int better2(int[] nums) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
